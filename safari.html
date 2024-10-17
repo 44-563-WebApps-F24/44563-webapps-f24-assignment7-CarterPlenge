@@ -36,7 +36,7 @@
   
   <div id="locations">Number of locations checked is zero.</div>
   <div id="score">Score is zero</div>
-  <div>Click for help</div>
+  <div id="click for help">Click for help</div>
   <div id="help">Help report</div>
 
 
@@ -145,10 +145,10 @@
       if (Math.abs(lionRow - lastRow) <= 1 && Math.abs(lionCol - lastCol) <= 1) {
         document.getElementById('help').innerText = 'Rawr';
       } else {
-        document.getElementById('help').innerText = 'It\'s grey';
+        document.getElementById('help').innerText = 'Its grey';
       }
     }
-    document.getElementById('click-help').onclick = help;
+    document.getElementById('click for help').onclick = help;
   </script>
 
 </body>
